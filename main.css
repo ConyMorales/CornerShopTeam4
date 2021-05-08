@@ -1,0 +1,128 @@
+.comofunciona {
+        padding-top: 32px;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .section * {
+        box-sizing: border-box;
+    }
+    
+    .section.comofunciona {
+        text-align: center;
+    }
+
+    .section.content {
+        padding-left: 52px;
+        padding-right: 52px;
+        margin: 0 auto;
+        max-width: 1037px;
+    }
+
+    div {
+        display: block;
+    }
+
+    .headerh2 {
+        font-size: 36px;
+        font-weight: 600;
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .steps {
+      zoom: 1;
+      margin: -16px;
+    }
+
+    .section.comofunciona.steps {
+        float: left;
+        width: 33.3333333333%;
+        padding: 16px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .stepsfigure1 {
+        border: 2px solid #ff000e;
+        background: #ff0a17;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        width: 84px;
+        height: 84px;
+        line-height: 84px;
+        font-size: 42px;
+        font-weight: 500;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .stepsfigure2 {
+        border: 2px solid #f58900;
+        background: #ff8f00;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        width: 84px;
+        height: 84px;
+        line-height: 84px;
+        font-size: 42px;
+        font-weight: 500;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .stepsfigure3 {
+        border: 2px solid #00d44e;
+        background: #00de52;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        width: 84px;
+        height: 84px;
+        line-height: 84px;
+        font-size: 42px;
+        font-weight: 500;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .stepsh2 {
+        color: #2b2b2b;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    
+    .stepsp {
+        font-size: 18px;
+        color: #2b2b2b;
+    }
+
+    /* .fruit { 
+        background-position: center;
+    } */
+
+    #listas {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .section.comofunciona.fruit {
+        height: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+
+  /* @media (max-width: 600px) {
+   .section .comofunciona .fruit {
+    background-size: 540px;
+    height: 120px; } */
