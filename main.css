@@ -1,12 +1,20 @@
-.howitworks {
+.comofunciona {
         padding-top: 32px;
         text-align: center;
         font-family: Helvetica, sans-serif;
-    } 
+    }
 
-    .content {
-        padding-left: 32px;
-        padding-right: 32px;
+    .section * {
+        box-sizing: border-box;
+    }
+    
+    .section.comofunciona {
+        text-align: center;
+    }
+
+    .section.content {
+        padding-left: 52px;
+        padding-right: 52px;
         margin: 0 auto;
         max-width: 1037px;
     }
@@ -18,14 +26,19 @@
     .headerh2 {
         font-size: 36px;
         font-weight: 600;
+        padding-top: 52px;
+        padding-bottom: 52px;
     }
 
     .steps {
       zoom: 1;
       margin: -16px;
-      float: left;
-      width: 100%;
-      padding: 16px;
+    }
+
+    .section.comofunciona.steps {
+        float: left;
+        width: 33.3333333333%;
+        padding: 16px;
     }
 
     li {
@@ -89,29 +102,27 @@
         color: #2b2b2b;
     }
 
-    .fruit { 
-        background-size: 540px;
-        height: 120px;
-        background-position: center top;
+    /* .fruit { 
+        background-position: center;
+    } */
+
+    #listas {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 
-    /* border: 2px solid #ff000e;
-    border-top-color: rgb(255, 0, 14);
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-right-color: rgb(255, 0, 14);
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-bottom-color: rgb(255, 0, 14);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: rgb(255, 0, 14);
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial; */
+    .section.comofunciona.fruit {
+        height: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        max-width: 1366px;
+        margin: 0 auto;
+    }
 
-@media (max-width:600px)
+  /* @media (max-width: 600px) {
+   .section .comofunciona .fruit {
+    background-size: 540px;
+    height: 120px; } */
