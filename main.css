@@ -126,3 +126,128 @@
    .section .comofunciona .fruit {
     background-size: 540px;
     height: 120px; } */
+
+/* Estilos Eduardo */
+#containerInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 200px;
+    grid-template-areas:
+    "rightShopper leftStore"
+    "downQuestions downQuestions";
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: gainsboro;
+    justify-content: center;
+    padding: 20px 20px;
+    font-family: "Avenir Next", Avenir, sans-serif;
+    
+}
+
+#shopper{
+    grid-area: rightShopper;
+    
+}
+
+#store{
+    grid-area: leftStore;
+    
+}
+
+#questions{
+    grid-area: downQuestions;
+    justify-self: center; /* centrar horizontal*/
+    align-self: center; /* entrar vertical */
+}
+
+#feature-image-shopper{
+    background-image: url(https://s.cornershopapp.com/static/landings/homepage/img/Bags_2x.png);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 12px;
+    width: 450px;
+    height: 420px;
+    text-align: center;
+    justify-self: right; /* centrar horizontal*/
+}
+
+#feature-image-store{
+    background-image: url(https://s.cornershopapp.com/static/landings/homepage/img/Storefront_2x.jpg);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 12px;
+    width: 450px;
+    height: 420px;
+    text-align: center;
+    justify-self: left; /* centrar horizontal*/
+}
+
+.feature-image-text-shopper{
+    background: linear-gradient(rgba(255, 255, 255, 0.85) 40%, rgba(255, 255, 255, 0) 100%);
+    color: black;
+    border-radius: 12px;
+}
+
+.feature-image-text-store{
+    background: linear-gradient(rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    border-radius: 12px;
+}
+
+#feature-image-text-small{
+    color: gray;   
+    font-size: 14px;
+}
+h3{
+    font-size: 30px;
+}
+
+#feature-questions{
+    height: 150px;
+    width: 900px;
+    background-color:#363636;
+    border-radius: 12px;
+    text-align: center;
+    padding:25px;
+    color: white;
+    border: 10px;
+    margin-bottom: 20px;
+}
+
+#help{
+    color: gray;
+}
+
+#containerFooter{
+    display: flex;
+    border: green solid 1px;
+    height: auto;
+    background-color: #363636;
+    font-family: "Avenir Next", Avenir, sans-serif;
+    color: grey;
+    justify-content: center;
+}
+
+.column1 a{ 
+    color: grey;
+}
+
+
+.column2 a{
+    color: whitesmoke;
+    margin-left: 100px;
+}
+
+.column3{
+    margin-left: 80px;
+}
+
+.column4{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    justify-items: right;
+}
+
+/* Estilos Eduardo */
+
